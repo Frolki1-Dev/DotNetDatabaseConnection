@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConnection_DB-MB13", "DBConnection_DB-MB13\DBConnection_DB-MB13.csproj", "{6B47448E-7C54-4C43-8DFC-28E485399476}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B47448E-7C54-4C43-8DFC-28E485399476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B47448E-7C54-4C43-8DFC-28E485399476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B47448E-7C54-4C43-8DFC-28E485399476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B47448E-7C54-4C43-8DFC-28E485399476}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA42CDD3-C820-4B0E-A753-AE2F5B070393}
+	EndGlobalSection
+EndGlobal

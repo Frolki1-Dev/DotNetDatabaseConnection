@@ -43,10 +43,22 @@ namespace DBConnection_DB_MB13
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
 
+                string employeeText = String.Empty;
+                object[] dataRow = new object[rdr.FieldCount];
+
                 while (rdr.Read())
                 {
-                    txtOutput.Text = txtOutput.Text + rdr[0] + " | " + rdr[1] + " " + rdr[2] + "\r\n";
+                    int cols = rdr.GetValues(dataRow);
+                    for (int i = 0; i < cols; i++)
+                    {
+                        employeeText += dataRow[i];
+                        employeeText += " | ";
+                    }
+
+                    employeeText += "\r\n";
                 }
+
+                txtOutput.Text = employeeText;
             }
             catch (Exception ex)
             {
